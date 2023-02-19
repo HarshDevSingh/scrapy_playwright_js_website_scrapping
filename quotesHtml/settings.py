@@ -105,6 +105,6 @@ DOWNLOAD_HANDLERS = {
 # PLAYWRIGHT_BROWSER_TYPE = "firefox"
 
 PLAYWRIGHT_LAUNCH_OPTIONS = {
-    "headless": False,
+    "headless": True,
     "timeout": 20 * 1000,  # 20 seconds
 }
